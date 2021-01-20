@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet');
+
+:root {
+    --theme-color: rgb(52, 52, 52);
+}
+
+body {
+    font-family: 'Chilanka', cursive;
+    background-color: #eeebeb;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+section {
+    margin: auto;
+}
+
+section.content {
+    text-align: center;
+    display: flex;
+    max-width: 600px;
+}
+
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: var(--theme-color);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    /* temporary unecessary */
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px 14px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.slides {
+    height: 350px; width: 100%;
+    background-size: cover;
+    background-position: center ;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav .dropbtn:not(:first-child)  {
+        display: none;
+    }
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/*for product */
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
+    background-color: var(--theme-color);
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+}
+
+.productBackground{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+    border-radius: 6px 6px 20px 6px;
+    padding: 16px;
+}
+
+.productBackground img {
+    width: 100%;
+}
+
+.productBackground p {
+    font-size: small;
+    position: relative;
+    overflow: hidden;
+}
+
+.buyNow {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: dimgrey;
+    border: none;
+    border-radius: 5px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+.productBackground:hover .buyNow {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.6ms;
+}
+
+.tbUpdate {
+    border-collapse: collapse;
+}
+
+
+.tbUpdate td, .tbUpdate th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tbUpdate tr {
+    background-color: #ffffff;
+}
+
+/*.tbUpdate tr:hover {background-color: #ddd;}*/
+.tbUdate tr {
+    text-align: center;
+}
+
+.tbUpdate th {
+    padding: 12px 0 12px 0;
+    text-align: center;
+    background-color: var(--theme-color);
+    color: white;
+}
+
+form.submit {
+    background-color: var(--theme-color);
+    border-radius: 10px;
+    height: 80px
+}
+
+

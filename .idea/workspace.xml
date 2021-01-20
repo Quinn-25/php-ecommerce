@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="194cf98f-453b-43f5-9c82-ebdb445d9b69" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="2339f8a9-2e35-4882-bca4-6533212544fc" value="Blue" />
+    </colors>
+  </component>
+  <component name="ProjectId" id="1gFsGCX9bZKaTcFzgS0A9H2mPvZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/homepage-bootstrap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Greenwich Course\Project\assets\images\icon" />
+      <recent name="C:\Greenwich Course\Project\admin\manageProduct" />
+      <recent name="C:\Greenwich Course\Project\admin\manageCategory" />
+      <recent name="C:\Greenwich Course\Project\assets\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="194cf98f-453b-43f5-9c82-ebdb445d9b69" name="Default Changelist" comment="" />
+      <created>1597721577980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597721577980</updated>
+      <workItem from="1597721578439" duration="15938000" />
+      <workItem from="1597757710275" duration="19910000" />
+      <workItem from="1597803137124" duration="5913000" />
+      <workItem from="1597809482367" duration="2763000" />
+      <workItem from="1597855330180" duration="13291000" />
+      <workItem from="1597888416303" duration="9292000" />
+      <workItem from="1597897896827" duration="11584000" />
+      <workItem from="1597937739610" duration="25268000" />
+      <workItem from="1598254049899" duration="599000" />
+      <workItem from="1599154567258" duration="2000" />
+      <workItem from="1601273446858" duration="4564000" />
+      <workItem from="1601543706925" duration="401000" />
+      <workItem from="1601619754116" duration="1662000" />
+      <workItem from="1604568755812" duration="1516000" />
+      <workItem from="1605603828182" duration="599000" />
+      <workItem from="1610286049448" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1610286655331">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="709" y="295" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1610286655331" />
+  </component>
+</project>
